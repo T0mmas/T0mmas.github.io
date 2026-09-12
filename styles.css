@@ -31,7 +31,7 @@ a { color: inherit; text-decoration: none; }
 .menu-toggle { display: none; }
 .intro { display: grid; grid-template-columns: 1fr; border-bottom: 1px solid var(--strong-line); }
 .intro > * { padding: 54px 32px 52px; }
-.intro-lead { padding: 102px 24px 36px; text-align: center; }
+.intro-lead { grid-column: 1 / -1; width: 100%; padding: 102px 24px 36px; text-align: center; }
 .intro-lead h1 { margin-inline: auto; }
 .eyebrow { margin: 0; color: var(--muted); font: 500 10px/1 var(--mono); letter-spacing: .18em; text-transform: uppercase; }
 h1, h2, h3, p { margin-top: 0; }
