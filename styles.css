@@ -42,11 +42,11 @@ h1 { max-width: 680px; margin: 27px 0 0; font: 500 clamp(54px, 7vw, 93px)/.93 va
 .button:hover { background: var(--ink); border-color: var(--ink); }
 .button span, .text-link span { font-size: 18px; }
 .services { padding: 86px 0 0; }
-.section-heading { display: grid; grid-template-columns: 1fr 1fr; column-gap: 32px; align-items: end; }
-.section-heading .eyebrow { align-self: start; }
+.section-heading { display: block; }
+.section-heading h2 { margin-top: 24px; }
 h2 { margin: 0; font: 500 clamp(44px, 6vw, 76px)/.94 var(--sans); letter-spacing: -.075em; }
 h2 em { color: var(--accent); font-family: var(--serif); font-style: italic; font-weight: 400; letter-spacing: -.06em; }
-.section-note { margin: 0; color: var(--muted); font-size: 15px; line-height: 1.72; }
+.section-note { max-width: 520px; margin: 24px 0 0; color: var(--muted); font-size: 15px; line-height: 1.72; }
 .service-table { margin-top: 58px; }
 .service-row { display: grid; grid-template-columns: 26px 250px minmax(0, 1fr) 250px; gap: 24px; align-items: baseline; padding: 25px 0; border-top: 1px solid var(--strong-line); }
 .service-row.last { border-bottom: 4px solid var(--ink); }
@@ -101,8 +101,7 @@ h2 em { color: var(--accent); font-family: var(--serif); font-style: italic; fon
   .intro { grid-template-columns: 1fr; }
   .intro > * { padding: 42px 24px 44px; }
   .intro-lead { padding: 72px 24px 36px; }
-  .section-heading, .about { grid-template-columns: 1fr 1fr; }
-  .section-heading .section-note { grid-column: 2; }
+  .about { grid-template-columns: 1fr 1fr; }
   .service-row { grid-template-columns: 28px 1fr 1fr; }
   .service-row h3 { grid-column: 2 / -1; }
   .service-row > p { grid-column: 2; }
@@ -129,8 +128,6 @@ h2 em { color: var(--accent); font-family: var(--serif); font-style: italic; fon
   h1 { font-size: clamp(50px, 15vw, 78px); }
   .lead { font-size: 22px; }
   .services { padding-top: 64px; }
-  .section-heading h2 { margin-top: 25px; }
-  .section-heading .section-note { margin-top: 28px; }
   .service-table { margin-top: 40px; }
   .service-row { grid-template-columns: 28px 1fr; gap: 7px 15px; padding: 24px 0; }
   .service-row h3, .service-row > p, .service-meta { grid-column: 2; }
