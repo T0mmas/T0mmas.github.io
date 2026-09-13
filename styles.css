@@ -46,13 +46,13 @@ h1 { max-width: 680px; margin: 27px 0 0; font: 500 clamp(54px, 7vw, 93px)/.93 va
 .section-heading h2 { margin-top: 24px; }
 h2 { margin: 0; font: 500 clamp(44px, 6vw, 76px)/.94 var(--sans); letter-spacing: -.075em; }
 h2 em { color: var(--accent); font-family: var(--serif); font-style: italic; font-weight: 400; letter-spacing: -.06em; }
-.section-note { max-width: 520px; margin: 24px 0 0; color: var(--muted); font-size: 15px; line-height: 1.72; }
+.section-note { max-width: 520px; margin: 24px 0 0; color: var(--muted); font-size: 16px; line-height: 1.72; }
 .service-table { margin-top: 58px; }
 .service-row { display: grid; grid-template-columns: 26px 250px minmax(0, 1fr) 250px; gap: 24px; align-items: baseline; padding: 25px 0; border-top: 1px solid var(--strong-line); }
 .service-row.last { border-bottom: 4px solid var(--ink); }
 .service-index { color: var(--muted); font: 400 13px/1.4 var(--mono); }
 .service-row h3 { margin: 0; font-size: 20px; line-height: 1.35; letter-spacing: -.025em; }
-.service-row > p, .service-meta strong { margin: 0; color: var(--muted); font-size: 15px; font-weight: 300; line-height: 1.65; }
+.service-row > p, .service-meta strong { margin: 0; color: var(--muted); font-size: 16px; font-weight: 300; line-height: 1.65; }
 .service-meta { display: flex; flex-direction: column; gap: 6px; }
 .service-meta span { color: var(--muted); font: 500 10px/1 var(--mono); letter-spacing: .12em; text-transform: uppercase; }
 .service-meta strong { font-weight: 300; }
@@ -66,7 +66,7 @@ h2 em { color: var(--accent); font-family: var(--serif); font-style: italic; fon
 .about-title h2 { margin-top: 28px; }
 .about-content { padding-right: 18px; }
 .about-intro { margin: 0; font-size: 25px; line-height: 1.45; letter-spacing: -.025em; }
-.about-content .muted { margin: 23px 0 0; font-size: 15px; line-height: 1.75; }
+.about-content .muted { margin: 23px 0 0; font-size: 16px; line-height: 1.75; }
 .credentials-list { grid-column: 1 / -1; padding: 25px 0 0; border-top: 1px solid var(--line); }
 .credential-item { padding: 17px 0; border-top: 1px solid var(--strong-line); }
 .credential-item:last-child { border-bottom: 1px solid var(--strong-line); }
@@ -132,7 +132,7 @@ h2 em { color: var(--accent); font-family: var(--serif); font-style: italic; fon
   .service-row { grid-template-columns: 28px 1fr; gap: 7px 15px; padding: 24px 0; }
   .service-row h3, .service-row > p, .service-meta { grid-column: 2; }
   .service-row h3 { font-size: 20px; }
-  .service-row > p { margin-top: 2px; font-size: 14px; }
+  .service-row > p { margin-top: 2px; font-size: 15.5px; }
   .service-meta { margin-top: 8px; }
   .service-footer { display: block; padding: 28px 0 64px; }
   .service-footer p { font-size: 16px; }
