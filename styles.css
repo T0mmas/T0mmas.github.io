@@ -40,7 +40,7 @@ h1 { max-width: 680px; margin: 27px 0 0; font: 500 clamp(54px, 7vw, 93px)/.93 va
 .muted { color: var(--muted); }
 .button { display: inline-flex; gap: 20px; align-items: center; margin-top: 34px; padding: 16px 21px; background: var(--accent); color: var(--paper); border: 1px solid var(--accent); font-size: 14px; line-height: 1; transition: background .2s ease, color .2s ease; }
 .button:hover { background: var(--ink); border-color: var(--ink); }
-.button span, .text-link span { font-size: 18px; }
+.button span, .text-link span { font-family: Arial, sans-serif; font-size: 18px; font-variant-emoji: text; }
 .services { padding: 86px 0 0; }
 .section-heading { display: block; }
 .section-heading h2 { margin-top: 24px; }
